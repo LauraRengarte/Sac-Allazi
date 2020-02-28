@@ -4,22 +4,22 @@ $(document).ready(function() {
     $("#image_container").css("display", "none");
     $("#form_content").css("display", "none");
 
-    $("#header").css("background", "black");
+    $("#header").css("background", "#aedd94");
     $("#header").css("width", "100%");
-    $("#header").css("height", "20%");
+    $("#header").css("height", "30%");
 
-    $("#body").css("background", "blue");
+    $("#body").css("background", "#aedd94");
     $("#body").css("width", "100%");
-    $("#body").css("height", "75%");
+    $("#body").css("height", "65%");
 
-    $("#footer").css("background", "red");
+    $("#footer").css("background", "#aedd94");
     $("#footer").css("width", "100%");
     $("#footer").css("height", "5%");
 
     $("#navigation_header").css("padding-top", "20px");
     $("#navigation_header").css("padding-bottom", "20px");
 
-    $("#body_content").css("background", "yellow");
+    $("#body_content").css("background", "#aedd94");
 
     $("#personal_photo").css("height", "250px");
     $("#personal_photo").css("width", "250px");
