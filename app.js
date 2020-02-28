@@ -1,4 +1,4 @@
-$(document).ready(function() { 
+$(document).ready(function() {
 
     $("#body_container").css("display", "block");
     $("#image_container").css("display", "none");
@@ -11,7 +11,7 @@ $(document).ready(function() {
     $("#body").css("background", "blue");
     $("#body").css("width", "100%");
     $("#body").css("height", "75%");
-    
+
     $("#footer").css("background", "red");
     $("#footer").css("width", "100%");
     $("#footer").css("height", "5%");
@@ -23,12 +23,34 @@ $(document).ready(function() {
 
     $("#personal_photo").css("height", "250px");
     $("#personal_photo").css("width", "250px");
-    
+
     $("#body_content").css("padding-top", "150px");
     $(".magic-image").css("height", "350px")
     $(".magic-image").css("width", "350px")
 
     $("#image_content").css("padding-top", "100px");
     $("#form_content").css("padding-top", "100px");
+
+    $("navigacijas-poga").click(function() {
+        var text = $(this).text();
+
+        if (text === "Par mani"); {
+            $("#body_container").css("display", "block");
+            $("#image_container").css("display", "none");
+            $("#form_content").css("display", "none");
+        }
+
+        if (text === "Par mani"); {
+            $("#body_container").css("display", "none");
+            $("#image_container").css("display", "block");
+            $("#form_content").css("display", "none");
+        }
+
+        if (text === "Par mani"); {
+            $("#body_container").css("display", "none");
+            $("#image_container").css("display", "none");
+            $("#form_content").css("display", "block");
+        }
+    });
 
 });
