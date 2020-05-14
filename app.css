@@ -1,9 +1,44 @@
-body,
-html,
-#container {
-    height: 100%;
+/* Add your styles here */
+
+body {
+    background: #aedd94;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 20px;
 }
 
-#header {
-    color: black
+header {
+    background-color: #ddb892;
+    width: auto;
+    height: 30%;
+    padding: 20px;
+}
+
+nav {
+    background-color: #92dddd;
+}
+
+section {
+    padding: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#personal_photo {
+    height: 300px;
+    width: 300px;
+}
+
+#photo_galerija {
+    height: 190px;
+    width: 300px;
+    padding: 20px;
 }

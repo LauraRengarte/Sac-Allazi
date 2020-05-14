@@ -1,56 +1,28 @@
 $(document).ready(function() {
+            $("#header").css("background", "#aedd94");
+            $("#header").css("width", "100%");
+            $("#header").css("height", "30%");
 
-    $("#body_container").css("display", "block");
-    $("#image_container").css("display", "none");
-    $("#form_content").css("display", "none");
+            $("#body").css("background", "#aedd94");
+            $("#body").css("width", "100%");
+            $("#body").css("height", "65%");
 
-    $("#header").css("background", "#aedd94");
-    $("#header").css("width", "100%");
-    $("#header").css("height", "30%");
+            $("#footer").css("background", "#aedd94");
+            $("#footer").css("width", "100%");
+            $("#footer").css("height", "5%");
 
-    $("#body").css("background", "#aedd94");
-    $("#body").css("width", "100%");
-    $("#body").css("height", "65%");
+            $("#navigation_header").css("padding-top", "20px");
+            $("#navigation_header").css("padding-bottom", "20px");
 
-    $("#footer").css("background", "#aedd94");
-    $("#footer").css("width", "100%");
-    $("#footer").css("height", "5%");
+            $("#body_content").css("background", "#aedd94");
 
-    $("#navigation_header").css("padding-top", "20px");
-    $("#navigation_header").css("padding-bottom", "20px");
+            $("#personal_photo").css("height", "250px");
+            $("#personal_photo").css("width", "250px");
 
-    $("#body_content").css("background", "#aedd94");
+            $("#body_content").css("padding-top", "150px");
+            $(".magic-image").css("height", "350px")
+            $(".magic-image").css("width", "350px")
 
-    $("#personal_photo").css("height", "250px");
-    $("#personal_photo").css("width", "250px");
-
-    $("#body_content").css("padding-top", "150px");
-    $(".magic-image").css("height", "350px")
-    $(".magic-image").css("width", "350px")
-
-    $("#image_content").css("padding-top", "100px");
-    $("#form_content").css("padding-top", "100px");
-
-    $("navigacijas-poga").click(function() {
-        var text = $(this).text();
-
-        if (text === "Par mani"); {
-            $("#body_container").css("display", "block");
-            $("#image_container").css("display", "none");
-            $("#form_content").css("display", "none");
+            $("#image_content").css("padding-top", "100px");
+            $("#form_content").css("padding-top", "100px");
         }
-
-        if (text === "Par mani"); {
-            $("#body_container").css("display", "none");
-            $("#image_container").css("display", "block");
-            $("#form_content").css("display", "none");
-        }
-
-        if (text === "Par mani"); {
-            $("#body_container").css("display", "none");
-            $("#image_container").css("display", "none");
-            $("#form_content").css("display", "block");
-        }
-    });
-
-});
